@@ -1,9 +1,49 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Example</title>
-    </head>
-    <body>
-        <h1>Hello, I'll be updating this soon</h1>
-    </body>
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>Hello! Let's start with a quick exercise</section>
+				<section>I'd like you to do a quick exercise - force your face into a smile</section>
+				<section>Don't just sit there, smile please</section>
+				<section>Now hold that expression</section>
+				<section>Everyone knows that they smile when they are happy</section>
+				<section>But studies show that reverse is also true!</section>
+				<section>When you force your face into a smile, you start to feel happier</section>
+				<section>Keep Smiling</section>
+				<section>Same is true about your walk and your talk</section>
+				<section>If you put energy into it, you'll feel happier</section>
+				<section>Now stop smiling and LMK if this worked for you?</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
 </html>
